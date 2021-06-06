@@ -7,13 +7,6 @@ const FULL_HEART = '♥'
 //will need to add .hidden class to "id = Model in error modal"
 // const likeClick = document.querySelector('.like-glyph')
 
-
-// document.addEventListener("click", changeHeart)
-
-// function changeHeart (){
-//   likeClick.addEventListener('click', function(){
-//   mimicServerCall() 
-//   .then()
 /*Need to be able to call upon activated hear class and attach to target
 element. 
 Need to switch out const FULL_HEART & EMPTY HEART to switch fotter display
@@ -43,28 +36,6 @@ function changeHeart(e) {
       objError.classList.add('hidden')
     }, 3000)
   })
-
-      
-
-        /* fetch("http://localhost:3000/dogs", configObj)
-  .then(function(response) {
-    return response.json();
-  })
-  .then(function(object) {
-    console.log(object);
-  })
-  .catch(function(error) {
-    alert("Bad things! Ragnarők!");
-    console.log(error.message);
-  }); */
-
-        
-
-  
-
-
-
-
 
 
   //Need to make function that simulates user request to like a comment
