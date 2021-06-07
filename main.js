@@ -13,7 +13,7 @@ Need to switch out const FULL_HEART & EMPTY HEART to switch fotter display
 */
 const commentHearts = document.querySelectorAll(".like-glyph");
 
-document.addEventListener("click", changeHeart)
+//document.addEventListener("click", changeHeart)
 function changeHeart(e) {
   const heart = e.target;
   mimicServerCall()
@@ -63,5 +63,5 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
 }
 
 for (const glyph of commentHearts) {
-  glyph.addEventListener("click", likeCallback);
+  glyph.addEventListener("click", changeHeart);
 }
